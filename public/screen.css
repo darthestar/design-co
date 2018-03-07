@@ -9,35 +9,35 @@ body {
 }
 
   .nav-bar  {
-      font: 20px / 1 sans-serif;
+      font: 18px / 1 sans-serif;
       background-color:#F7F7F7;
-      margin: 2em 2em;
+      margin: 2em;
       padding: 0em 15em;
     }
 
     .nav-bar > ul{
       display: flex;
       flex-direction: row;
-      justify-content: flex-start;
       list-style-type: none;
       align-items: center;
+      
     }
 
     .nav-bar > ul > li{
-      display: flex;
-      padding-right: 30px;
-      
-    
+      margin-left: 4em;
+      padding: 2px;
     }
 
     img{
-      margin: 2em 2em;
+      margin: 1em;
       border-bottom: 2px solid #F7F7F7;
     }
 
     h1{
       display: flex;
       justify-content: center;
+      color: rgb(158, 134, 134);
+
     }
 
     h3{
@@ -55,9 +55,47 @@ body {
     }
 
     .photo-wrapper > img{
-      margin-right: 1px;
+      margin-right: 0px;
     }
-#search-icon{
-  margin-left: auto;
+    #search-icon{
+      margin-left: 25em;
 
-}
+    }
+
+    .footer{
+      display: flex;
+      margin: 0px 33em;
+
+    }
+
+    .box1{
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      padding: 5px;
+      
+
+
+    }
+
+    .box1> section{
+      margin: 10px;
+      padding: 5px
+    }
+
+    #boxone >h4{
+      color: red;
+      margin-bottom: 2em;
+    }
+
+    a{
+      color: red;
+    }
+    .nav-bar:before {
+      content: ""; /* This is necessary for the pseudo element to work. */ 
+      display: block; /* This will put the pseudo element on its own line. */
+      margin: 0 auto; /* This will center the border. */
+      width: 90%; /* Change this to whatever width you want. */
+      /*padding-top: 1px; /* This creates some space between the element and the border. */
+      border-top: 12px solid red; /* This creates the border. Replace black with whatever color you want. */
+  }
